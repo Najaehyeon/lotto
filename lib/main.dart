@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:lotto/screen/home_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    MyApp(),
+  );
 }
 
 class MyApp extends StatelessWidget {
