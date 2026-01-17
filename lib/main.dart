@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lotto/screen/home_screen.dart';
+import 'package:lotto/screen/splash_screen.dart';
 
 void main() {
   runApp(
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: SplashScreen(),
     );
   }
 }
